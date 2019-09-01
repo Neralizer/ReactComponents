@@ -1,3 +1,5 @@
+@import 'Navbar';
+
 $seafoam-green: #A9E5BB;
 $purple-taupe: #554348;
 $azeurish-white: #D4F5F5;
@@ -9,6 +11,7 @@ $sonic-silver: #747578;
   overflow: hidden;
   background-color: $spanish-gray;
   border-radius: 5px;
+  padding: 1%;
 }
 
 ul {
@@ -23,15 +26,20 @@ li a {
   text-decoration: none;
   padding: 5px;
   color: $azeurish-white;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 li a:hover{
   background-color: $azeurish-white;
+  color: $spanish-gray;
+  border-radius: 5px;
 }
 
 #filler {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: $azeurish-white;;
+  background-color: $azeurish-white;
+  border-radius: 5px;
 }
