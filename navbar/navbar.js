@@ -11,4 +11,4 @@ import React from "react";
 </div>
       
 
-export default Navbar;
+export default navbar;

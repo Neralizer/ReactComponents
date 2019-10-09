@@ -1,0 +1,29 @@
+@import "navbar-border-hover";
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5175C0;
+    color: white;
+    padding: 2.5%;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  
+  #home, #about, #blog, #content {
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+    border-top: 2px solid #5175C0;
+    border-bottom: 2px solid #5175C0;
+  }
+  
+  #home:hover, #about:hover, #blog:hover, #content:hover {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0.5%;
+  }
